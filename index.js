@@ -6,4 +6,8 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static("public"));
 app.use(express.static("."));
 
+app.get("/car-list", (req, res) => {
+    res.send("Car List Must redirect to app");
+});
+
 app.listen(PORT, () => console.log(`server listening on port ${PORT}`))
