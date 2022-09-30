@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A296A3728E199F100F3972F"
-               BuildableName = "testUniversalLink.app"
-               BlueprintName = "testUniversalLink"
-               ReferencedContainer = "container:testUniversalLink.xcodeproj">
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A296A4D28E199F300F3972F"
-               BuildableName = "testUniversalLinkTests.xctest"
-               BlueprintName = "testUniversalLinkTests"
-               ReferencedContainer = "container:testUniversalLink.xcodeproj">
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A296A5728E199F300F3972F"
-               BuildableName = "testUniversalLinkUITests.xctest"
-               BlueprintName = "testUniversalLinkUITests"
-               ReferencedContainer = "container:testUniversalLink.xcodeproj">
+               BuildableName = "AppUITests.xctest"
+               BlueprintName = "AppUITests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A296A3728E199F100F3972F"
-            BuildableName = "testUniversalLink.app"
-            BlueprintName = "testUniversalLink"
-            ReferencedContainer = "container:testUniversalLink.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A296A3728E199F100F3972F"
-            BuildableName = "testUniversalLink.app"
-            BlueprintName = "testUniversalLink"
-            ReferencedContainer = "container:testUniversalLink.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

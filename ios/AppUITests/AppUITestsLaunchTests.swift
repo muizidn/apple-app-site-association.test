@@ -1,13 +1,13 @@
 //
-//  testUniversalLinkUITestsLaunchTests.swift
-//  testUniversalLinkUITests
+//  AppUITestsLaunchTests.swift
+//  AppUITests
 //
 //  Created by M on 26/09/22.
 //
 
 import XCTest
 
-class testUniversalLinkUITestsLaunchTests: XCTestCase {
+class AppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

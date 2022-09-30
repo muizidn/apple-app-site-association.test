@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFD13BAA1E821B639662B1E /* Pods_testUniversalLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6309C7FC2381AE570C73CD /* Pods_testUniversalLink.framework */; };
-		1EA46006CD7998637400E88F /* Pods_testUniversalLinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48A390A7033D8D0DB15A60A /* Pods_testUniversalLinkTests.framework */; };
+		0EFD13BAA1E821B639662B1E /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6309C7FC2381AE570C73CD /* Pods_App.framework */; };
+		1EA46006CD7998637400E88F /* Pods_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48A390A7033D8D0DB15A60A /* Pods_AppTests.framework */; };
 		9A296A3C28E199F100F3972F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A3B28E199F100F3972F /* AppDelegate.swift */; };
 		9A296A4028E199F100F3972F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A3F28E199F100F3972F /* ViewController.swift */; };
 		9A296A4328E199F100F3972F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A296A4128E199F100F3972F /* Main.storyboard */; };
 		9A296A4528E199F300F3972F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A296A4428E199F300F3972F /* Assets.xcassets */; };
 		9A296A4828E199F300F3972F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A296A4628E199F300F3972F /* LaunchScreen.storyboard */; };
-		9A296A5328E199F300F3972F /* testUniversalLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5228E199F300F3972F /* testUniversalLinkTests.swift */; };
-		9A296A5D28E199F300F3972F /* testUniversalLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5C28E199F300F3972F /* testUniversalLinkUITests.swift */; };
-		9A296A5F28E199F300F3972F /* testUniversalLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5E28E199F300F3972F /* testUniversalLinkUITestsLaunchTests.swift */; };
-		DF9259A79388A1D248689953 /* Pods_testUniversalLink_testUniversalLinkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2569FE487F8FE22C0C83D681 /* Pods_testUniversalLink_testUniversalLinkUITests.framework */; };
+		9A296A5328E199F300F3972F /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5228E199F300F3972F /* AppTests.swift */; };
+		9A296A5D28E199F300F3972F /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5C28E199F300F3972F /* AppUITests.swift */; };
+		9A296A5F28E199F300F3972F /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A296A5E28E199F300F3972F /* AppUITestsLaunchTests.swift */; };
+		DF9259A79388A1D248689953 /* Pods_App_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2569FE487F8FE22C0C83D681 /* Pods_App_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,40 +26,40 @@
 			containerPortal = 9A296A3028E199F100F3972F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A296A3728E199F100F3972F;
-			remoteInfo = testUniversalLink;
+			remoteInfo = App;
 		};
 		9A296A5928E199F300F3972F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A296A3028E199F100F3972F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A296A3728E199F100F3972F;
-			remoteInfo = testUniversalLink;
+			remoteInfo = App;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22FBF6B8891B34CC5740979C /* Pods-testUniversalLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLink.release.xcconfig"; path = "Target Support Files/Pods-testUniversalLink/Pods-testUniversalLink.release.xcconfig"; sourceTree = "<group>"; };
-		2569FE487F8FE22C0C83D681 /* Pods_testUniversalLink_testUniversalLinkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testUniversalLink_testUniversalLinkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1BE95796D7BCA1B199D34C /* Pods-testUniversalLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLink.debug.xcconfig"; path = "Target Support Files/Pods-testUniversalLink/Pods-testUniversalLink.debug.xcconfig"; sourceTree = "<group>"; };
-		3F6309C7FC2381AE570C73CD /* Pods_testUniversalLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testUniversalLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		616F4E734405E57C95949017 /* Pods-testUniversalLink-testUniversalLinkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLink-testUniversalLinkUITests.release.xcconfig"; path = "Target Support Files/Pods-testUniversalLink-testUniversalLinkUITests/Pods-testUniversalLink-testUniversalLinkUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8F43D4EBC574A636410D9E72 /* Pods-testUniversalLink-testUniversalLinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLink-testUniversalLinkUITests.debug.xcconfig"; path = "Target Support Files/Pods-testUniversalLink-testUniversalLinkUITests/Pods-testUniversalLink-testUniversalLinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		92129437FA6AE447C9CD640A /* Pods-testUniversalLinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLinkTests.release.xcconfig"; path = "Target Support Files/Pods-testUniversalLinkTests/Pods-testUniversalLinkTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A296A3828E199F100F3972F /* testUniversalLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUniversalLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FBF6B8891B34CC5740979C /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		2569FE487F8FE22C0C83D681 /* Pods_App_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1BE95796D7BCA1B199D34C /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6309C7FC2381AE570C73CD /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616F4E734405E57C95949017 /* Pods-App-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-App-AppUITests/Pods-App-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F43D4EBC574A636410D9E72 /* Pods-App-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-App-AppUITests/Pods-App-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92129437FA6AE447C9CD640A /* Pods-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTests.release.xcconfig"; path = "Target Support Files/Pods-AppTests/Pods-AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A296A3828E199F100F3972F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A296A3B28E199F100F3972F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A296A3F28E199F100F3972F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A296A4228E199F100F3972F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A296A4428E199F300F3972F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A296A4728E199F300F3972F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A296A4928E199F300F3972F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A296A4E28E199F300F3972F /* testUniversalLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUniversalLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A296A5228E199F300F3972F /* testUniversalLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUniversalLinkTests.swift; sourceTree = "<group>"; };
-		9A296A5828E199F300F3972F /* testUniversalLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUniversalLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A296A5C28E199F300F3972F /* testUniversalLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUniversalLinkUITests.swift; sourceTree = "<group>"; };
-		9A296A5E28E199F300F3972F /* testUniversalLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUniversalLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9A296A6B28E19A1A00F3972F /* testUniversalLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testUniversalLink.entitlements; sourceTree = "<group>"; };
-		9BBCE37FEF5F4BF1EAFC1F32 /* Pods-testUniversalLinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUniversalLinkTests.debug.xcconfig"; path = "Target Support Files/Pods-testUniversalLinkTests/Pods-testUniversalLinkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E48A390A7033D8D0DB15A60A /* Pods_testUniversalLinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testUniversalLinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A296A4E28E199F300F3972F /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A296A5228E199F300F3972F /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		9A296A5828E199F300F3972F /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A296A5C28E199F300F3972F /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
+		9A296A5E28E199F300F3972F /* AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A296A6B28E19A1A00F3972F /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		9BBCE37FEF5F4BF1EAFC1F32 /* Pods-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTests.debug.xcconfig"; path = "Target Support Files/Pods-AppTests/Pods-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E48A390A7033D8D0DB15A60A /* Pods_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFD13BAA1E821B639662B1E /* Pods_testUniversalLink.framework in Frameworks */,
+				0EFD13BAA1E821B639662B1E /* Pods_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA46006CD7998637400E88F /* Pods_testUniversalLinkTests.framework in Frameworks */,
+				1EA46006CD7998637400E88F /* Pods_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9259A79388A1D248689953 /* Pods_testUniversalLink_testUniversalLinkUITests.framework in Frameworks */,
+				DF9259A79388A1D248689953 /* Pods_App_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +93,12 @@
 		170FDDAA1A9F7E465F9306DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D1BE95796D7BCA1B199D34C /* Pods-testUniversalLink.debug.xcconfig */,
-				22FBF6B8891B34CC5740979C /* Pods-testUniversalLink.release.xcconfig */,
-				8F43D4EBC574A636410D9E72 /* Pods-testUniversalLink-testUniversalLinkUITests.debug.xcconfig */,
-				616F4E734405E57C95949017 /* Pods-testUniversalLink-testUniversalLinkUITests.release.xcconfig */,
-				9BBCE37FEF5F4BF1EAFC1F32 /* Pods-testUniversalLinkTests.debug.xcconfig */,
-				92129437FA6AE447C9CD640A /* Pods-testUniversalLinkTests.release.xcconfig */,
+				3D1BE95796D7BCA1B199D34C /* Pods-App.debug.xcconfig */,
+				22FBF6B8891B34CC5740979C /* Pods-App.release.xcconfig */,
+				8F43D4EBC574A636410D9E72 /* Pods-App-AppUITests.debug.xcconfig */,
+				616F4E734405E57C95949017 /* Pods-App-AppUITests.release.xcconfig */,
+				9BBCE37FEF5F4BF1EAFC1F32 /* Pods-AppTests.debug.xcconfig */,
+				92129437FA6AE447C9CD640A /* Pods-AppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 		60A8237F2E062C3763E7093B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F6309C7FC2381AE570C73CD /* Pods_testUniversalLink.framework */,
-				2569FE487F8FE22C0C83D681 /* Pods_testUniversalLink_testUniversalLinkUITests.framework */,
-				E48A390A7033D8D0DB15A60A /* Pods_testUniversalLinkTests.framework */,
+				3F6309C7FC2381AE570C73CD /* Pods_App.framework */,
+				2569FE487F8FE22C0C83D681 /* Pods_App_AppUITests.framework */,
+				E48A390A7033D8D0DB15A60A /* Pods_AppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		9A296A2F28E199F100F3972F = {
 			isa = PBXGroup;
 			children = (
-				9A296A3A28E199F100F3972F /* testUniversalLink */,
-				9A296A5128E199F300F3972F /* testUniversalLinkTests */,
-				9A296A5B28E199F300F3972F /* testUniversalLinkUITests */,
+				9A296A3A28E199F100F3972F /* App */,
+				9A296A5128E199F300F3972F /* AppTests */,
+				9A296A5B28E199F300F3972F /* AppUITests */,
 				9A296A3928E199F100F3972F /* Products */,
 				170FDDAA1A9F7E465F9306DF /* Pods */,
 				60A8237F2E062C3763E7093B /* Frameworks */,
@@ -128,17 +128,17 @@
 		9A296A3928E199F100F3972F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A296A3828E199F100F3972F /* testUniversalLink.app */,
-				9A296A4E28E199F300F3972F /* testUniversalLinkTests.xctest */,
-				9A296A5828E199F300F3972F /* testUniversalLinkUITests.xctest */,
+				9A296A3828E199F100F3972F /* App.app */,
+				9A296A4E28E199F300F3972F /* AppTests.xctest */,
+				9A296A5828E199F300F3972F /* AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A296A3A28E199F100F3972F /* testUniversalLink */ = {
+		9A296A3A28E199F100F3972F /* App */ = {
 			isa = PBXGroup;
 			children = (
-				9A296A6B28E19A1A00F3972F /* testUniversalLink.entitlements */,
+				9A296A6B28E19A1A00F3972F /* App.entitlements */,
 				9A296A3B28E199F100F3972F /* AppDelegate.swift */,
 				9A296A3F28E199F100F3972F /* ViewController.swift */,
 				9A296A4128E199F100F3972F /* Main.storyboard */,
@@ -146,32 +146,32 @@
 				9A296A4628E199F300F3972F /* LaunchScreen.storyboard */,
 				9A296A4928E199F300F3972F /* Info.plist */,
 			);
-			path = testUniversalLink;
+			path = App;
 			sourceTree = "<group>";
 		};
-		9A296A5128E199F300F3972F /* testUniversalLinkTests */ = {
+		9A296A5128E199F300F3972F /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A296A5228E199F300F3972F /* testUniversalLinkTests.swift */,
+				9A296A5228E199F300F3972F /* AppTests.swift */,
 			);
-			path = testUniversalLinkTests;
+			path = AppTests;
 			sourceTree = "<group>";
 		};
-		9A296A5B28E199F300F3972F /* testUniversalLinkUITests */ = {
+		9A296A5B28E199F300F3972F /* AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A296A5C28E199F300F3972F /* testUniversalLinkUITests.swift */,
-				9A296A5E28E199F300F3972F /* testUniversalLinkUITestsLaunchTests.swift */,
+				9A296A5C28E199F300F3972F /* AppUITests.swift */,
+				9A296A5E28E199F300F3972F /* AppUITestsLaunchTests.swift */,
 			);
-			path = testUniversalLinkUITests;
+			path = AppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A296A3728E199F100F3972F /* testUniversalLink */ = {
+		9A296A3728E199F100F3972F /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A296A6228E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLink" */;
+			buildConfigurationList = 9A296A6228E199F300F3972F /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				31F0755FA4439CDAC25CA71D /* [CP] Check Pods Manifest.lock */,
 				9A296A3428E199F100F3972F /* Sources */,
@@ -182,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = testUniversalLink;
-			productName = testUniversalLink;
-			productReference = 9A296A3828E199F100F3972F /* testUniversalLink.app */;
+			name = App;
+			productName = App;
+			productReference = 9A296A3828E199F100F3972F /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A296A4D28E199F300F3972F /* testUniversalLinkTests */ = {
+		9A296A4D28E199F300F3972F /* AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A296A6528E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLinkTests" */;
+			buildConfigurationList = 9A296A6528E199F300F3972F /* Build configuration list for PBXNativeTarget "AppTests" */;
 			buildPhases = (
 				CF624F80FC9DA728F58575EB /* [CP] Check Pods Manifest.lock */,
 				9A296A4A28E199F300F3972F /* Sources */,
@@ -201,14 +201,14 @@
 			dependencies = (
 				9A296A5028E199F300F3972F /* PBXTargetDependency */,
 			);
-			name = testUniversalLinkTests;
-			productName = testUniversalLinkTests;
-			productReference = 9A296A4E28E199F300F3972F /* testUniversalLinkTests.xctest */;
+			name = AppTests;
+			productName = AppTests;
+			productReference = 9A296A4E28E199F300F3972F /* AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A296A5728E199F300F3972F /* testUniversalLinkUITests */ = {
+		9A296A5728E199F300F3972F /* AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A296A6828E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLinkUITests" */;
+			buildConfigurationList = 9A296A6828E199F300F3972F /* Build configuration list for PBXNativeTarget "AppUITests" */;
 			buildPhases = (
 				7E5D8AD63BFF77264D755F72 /* [CP] Check Pods Manifest.lock */,
 				9A296A5428E199F300F3972F /* Sources */,
@@ -220,9 +220,9 @@
 			dependencies = (
 				9A296A5A28E199F300F3972F /* PBXTargetDependency */,
 			);
-			name = testUniversalLinkUITests;
-			productName = testUniversalLinkUITests;
-			productReference = 9A296A5828E199F300F3972F /* testUniversalLinkUITests.xctest */;
+			name = AppUITests;
+			productName = AppUITests;
+			productReference = 9A296A5828E199F300F3972F /* AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A296A3328E199F100F3972F /* Build configuration list for PBXProject "testUniversalLink" */;
+			buildConfigurationList = 9A296A3328E199F100F3972F /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,9 +261,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A296A3728E199F100F3972F /* testUniversalLink */,
-				9A296A4D28E199F300F3972F /* testUniversalLinkTests */,
-				9A296A5728E199F300F3972F /* testUniversalLinkUITests */,
+				9A296A3728E199F100F3972F /* App */,
+				9A296A4D28E199F300F3972F /* AppTests */,
+				9A296A5728E199F300F3972F /* AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testUniversalLink-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,7 +333,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testUniversalLink-testUniversalLinkUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AppUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,7 +355,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testUniversalLinkTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A296A5328E199F300F3972F /* testUniversalLinkTests.swift in Sources */,
+				9A296A5328E199F300F3972F /* AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A296A5F28E199F300F3972F /* testUniversalLinkUITestsLaunchTests.swift in Sources */,
-				9A296A5D28E199F300F3972F /* testUniversalLinkUITests.swift in Sources */,
+				9A296A5F28E199F300F3972F /* AppUITestsLaunchTests.swift in Sources */,
+				9A296A5D28E199F300F3972F /* AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +396,12 @@
 /* Begin PBXTargetDependency section */
 		9A296A5028E199F300F3972F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A296A3728E199F100F3972F /* testUniversalLink */;
+			target = 9A296A3728E199F100F3972F /* App */;
 			targetProxy = 9A296A4F28E199F300F3972F /* PBXContainerItemProxy */;
 		};
 		9A296A5A28E199F300F3972F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A296A3728E199F100F3972F /* testUniversalLink */;
+			target = 9A296A3728E199F100F3972F /* App */;
 			targetProxy = 9A296A5928E199F300F3972F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -542,16 +542,16 @@
 		};
 		9A296A6328E199F300F3972F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1BE95796D7BCA1B199D34C /* Pods-testUniversalLink.debug.xcconfig */;
+			baseConfigurationReference = 3D1BE95796D7BCA1B199D34C /* Pods-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = testUniversalLink/testUniversalLink.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SDSLU2QT5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testUniversalLink/Info.plist;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -573,16 +573,16 @@
 		};
 		9A296A6428E199F300F3972F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22FBF6B8891B34CC5740979C /* Pods-testUniversalLink.release.xcconfig */;
+			baseConfigurationReference = 22FBF6B8891B34CC5740979C /* Pods-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = testUniversalLink/testUniversalLink.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SDSLU2QT5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testUniversalLink/Info.plist;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -604,7 +604,7 @@
 		};
 		9A296A6628E199F300F3972F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BBCE37FEF5F4BF1EAFC1F32 /* Pods-testUniversalLinkTests.debug.xcconfig */;
+			baseConfigurationReference = 9BBCE37FEF5F4BF1EAFC1F32 /* Pods-AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -614,18 +614,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.testUniversalLinkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.AppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testUniversalLink.app/testUniversalLink";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Debug;
 		};
 		9A296A6728E199F300F3972F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92129437FA6AE447C9CD640A /* Pods-testUniversalLinkTests.release.xcconfig */;
+			baseConfigurationReference = 92129437FA6AE447C9CD640A /* Pods-AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,18 +635,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.testUniversalLinkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.AppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testUniversalLink.app/testUniversalLink";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Release;
 		};
 		9A296A6928E199F300F3972F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F43D4EBC574A636410D9E72 /* Pods-testUniversalLink-testUniversalLinkUITests.debug.xcconfig */;
+			baseConfigurationReference = 8F43D4EBC574A636410D9E72 /* Pods-App-AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,18 +654,18 @@
 				DEVELOPMENT_TEAM = SDSLU2QT5X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.testUniversalLinkUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.AppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testUniversalLink;
+				TEST_TARGET_NAME = App;
 			};
 			name = Debug;
 		};
 		9A296A6A28E199F300F3972F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616F4E734405E57C95949017 /* Pods-testUniversalLink-testUniversalLinkUITests.release.xcconfig */;
+			baseConfigurationReference = 616F4E734405E57C95949017 /* Pods-App-AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -673,19 +673,19 @@
 				DEVELOPMENT_TEAM = SDSLU2QT5X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.testUniversalLinkUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.AppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testUniversalLink;
+				TEST_TARGET_NAME = App;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A296A3328E199F100F3972F /* Build configuration list for PBXProject "testUniversalLink" */ = {
+		9A296A3328E199F100F3972F /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A296A6028E199F300F3972F /* Debug */,
@@ -694,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A296A6228E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLink" */ = {
+		9A296A6228E199F300F3972F /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A296A6328E199F300F3972F /* Debug */,
@@ -703,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A296A6528E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLinkTests" */ = {
+		9A296A6528E199F300F3972F /* Build configuration list for PBXNativeTarget "AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A296A6628E199F300F3972F /* Debug */,
@@ -712,7 +712,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A296A6828E199F300F3972F /* Build configuration list for PBXNativeTarget "testUniversalLinkUITests" */ = {
+		9A296A6828E199F300F3972F /* Build configuration list for PBXNativeTarget "AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A296A6928E199F300F3972F /* Debug */,

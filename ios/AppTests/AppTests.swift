@@ -1,14 +1,14 @@
 //
-//  testUniversalLinkTests.swift
-//  testUniversalLinkTests
+//  AppTests.swift
+//  AppTests
 //
 //  Created by M on 26/09/22.
 //
 
 import XCTest
-@testable import testUniversalLink
+@testable import App
 
-class testUniversalLinkTests: XCTestCase {
+class AppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

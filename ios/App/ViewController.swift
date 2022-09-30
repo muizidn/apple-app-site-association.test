@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  testUniversalLink
+//  App
 //
 //  Created by M on 26/09/22.
 //
