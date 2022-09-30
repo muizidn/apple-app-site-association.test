@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+             {
+               "appIDs": [ "SDSLU2QT5X.com.muiz.idn.id.astradigital.adp.movic" ],
+               "components": [
+                 {
+                    "/": "*",
+                    "comment": "All"
+                 }
+               ]
+             }
+          ]
+    }
+  }
