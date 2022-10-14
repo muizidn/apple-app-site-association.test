@@ -4,7 +4,9 @@
         "details": {
             "SDSLU2QT5X.com.muiz.idn.id.astradigital.adp.movic": {
                 "paths": [
-                    "*"
+                    "/cars",
+                    "/promo/*",
+                    "NOT /email"
                 ]
             }
         }
